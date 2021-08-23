@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="18154" systemVersion="20D64" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="OverwearItem" representedClassName=".OverwearItem" syncable="YES">
+        <attribute name="favo" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="photo" optional="YES" attributeType="Binary"/>
+        <attribute name="price" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+        <attribute name="username" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="ShoeItem" representedClassName="ShoeItem" syncable="YES">
+        <attribute name="favo" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="photo" optional="YES" attributeType="Binary"/>
+        <attribute name="price" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+        <attribute name="username" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="OverwearItem" positionX="-63" positionY="-18" width="128" height="104"/>
+        <element name="ShoeItem" positionX="-63" positionY="18" width="128" height="14"/>
+    </elements>
+</model>
